@@ -23,7 +23,7 @@ public class SomeMapping {
 			String name = toName.apply(user);
 			names.add(name);
 		}
-		users.forEach(u -> System.out.println(u));
+		users.forEach(user -> System.out.println(user));
 		Consumer<String> action = s -> System.out.println(s);
 		names.forEach(action);
 	}

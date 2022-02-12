@@ -1,5 +1,6 @@
 package org.meroot;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
@@ -25,5 +26,12 @@ public class CreatingCompartors {
 				
 		strings.sort(cmp2);
 		System.out.println(strings);
+
+
+		List<Integer> numbers = Arrays.asList(11, 20, 333, 44, 5, 6, 7, 8, 9);
+
+		Comparator<Integer> cmp3 = (i1, i2) -> i1.compareTo(i2);
+		numbers.sort(cmp3);
+		System.out.println(numbers);
 	}
 }
