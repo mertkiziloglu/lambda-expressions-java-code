@@ -11,7 +11,7 @@ public class FirstLambdas {
 		Supplier<String> supplier = () -> {
 
 			System.out.println("I am inside the Supplier");
-			return "Hello!"; 
+			return "Meroot";
 		};
 
 		String string = supplier.get();
