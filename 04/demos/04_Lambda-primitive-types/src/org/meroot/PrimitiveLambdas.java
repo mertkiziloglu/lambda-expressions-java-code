@@ -1,4 +1,4 @@
-package org.paumard.lambdas;
+package org.meroot;
 
 import java.util.function.DoubleToIntFunction;
 import java.util.function.IntSupplier;

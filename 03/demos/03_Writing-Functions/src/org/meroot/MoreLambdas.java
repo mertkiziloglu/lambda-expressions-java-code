@@ -1,4 +1,4 @@
-package org.paumard.lambdas;
+package org.meroot;
 
 import java.util.ArrayList;
 import java.util.List;

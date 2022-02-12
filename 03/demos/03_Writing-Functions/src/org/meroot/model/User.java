@@ -1,4 +1,4 @@
-package org.paumard.lambdas.model;
+package org.meroot.model;
 
 public class User {
 

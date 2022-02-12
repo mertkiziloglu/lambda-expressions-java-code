@@ -1,10 +1,10 @@
-package org.paumard.lambdas;
+package org.meroot;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-import org.paumard.lambdas.model.User;
+import org.meroot.model.User;
 
 public class UserComparator {
 

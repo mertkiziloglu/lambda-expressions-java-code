@@ -1,4 +1,4 @@
-package org.paumard.lambdas;
+package org.meroot;
 
 import java.util.Arrays;
 import java.util.Comparator;

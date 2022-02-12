@@ -1,11 +1,11 @@
-package org.paumard.lambdas;
+package org.meroot;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-import org.paumard.lambdas.model.User;
+import org.meroot.model.User;
 
 public class SomeMapping {
 
