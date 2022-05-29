@@ -24,7 +24,7 @@ public class SomeMapping {
 			names.add(name);
 		}
 		users.forEach(user -> System.out.println(user));
-		Consumer<String> action = s -> System.out.println(s);
+		Consumer<String> action = string -> System.out.println(string);
 		names.forEach(action);
 	}
 
