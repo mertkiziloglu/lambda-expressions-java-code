@@ -16,13 +16,13 @@ public class CreatingCompartors {
 						"six", "seven", "eight", "nine");
 		
 		Comparator<String> cmp = 
-				(s1, s2) -> s1.compareTo(s2);
+				(s1, s2) -> s1.compareTo(s2);// harf sayisima gore karsilastirma yapiyor
 		strings.sort(cmp);
 		System.out.println(strings);
 		
 		ToIntFunction<String> toLength = s -> s.length();
 		
-		Comparator<String> cmp2 = Comparator.comparingInt(toLength);
+		Comparator<String> cmp2 = Comparator.comparingInt(toLength); //harf sayisina gore siralama yapiyor
 				
 		strings.sort(cmp2);
 		System.out.println(strings);
